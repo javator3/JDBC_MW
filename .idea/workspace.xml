@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69ece2c7-6534-499c-a94c-33a2dc85d321" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/Employees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/StatementExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Books.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/SqlInjectionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.hml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/ConnectionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/ConnectionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/ConnectionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/ConnectionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/DriverRegisterExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/DriverRegisterExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/Employees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Employees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/StatementExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/StatementExample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,27 +33,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="java" value="5" />
+          <entry key="hml" value="1" />
+          <entry key="java" value="7" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="7" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2314" />
-          <entry key="xml" value="9" />
+          <entry key="hml" value="4" />
+          <entry key="java" value="2529" />
+          <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2314" />
-          <entry key="XML" value="9" />
+          <entry key="JAVA" value="2529" />
+          <entry key="XML" value="14" />
         </counts>
       </usages-collector>
     </session>
@@ -54,7 +63,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/hibernate/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" selection-start-line="5" selection-end-line="5" />
@@ -63,16 +72,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/hibernate/DriverRegisterExample.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/DriverRegisterExample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/hibernate/ConnectionExample.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/ConnectionExample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="124" selection-start-line="8" selection-start-column="8" selection-end-line="9" selection-end-column="124" />
@@ -84,10 +93,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/hibernate/StatementExample.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/StatementExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="103" column="5" lean-forward="true" selection-start-line="92" selection-start-column="4" selection-end-line="103" selection-end-column="5" />
+            <state relative-caret-position="440">
+              <caret line="26" column="59" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,7 +105,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/hibernate/Employees.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/SqlInjectionExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Employees.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
               <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
@@ -123,10 +141,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Books.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/logback.hml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="288">
+              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -156,12 +192,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/DriverRegisterExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/ConnectionExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/StatementExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/Employees.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/StatementExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/Books.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback.hml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/SqlInjectionExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/SqlInjectionExample.java" />
       </list>
     </option>
   </component>
@@ -234,7 +274,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pl" type="462c0819:PsiDirectoryNode" />
               <item name="sda" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDBC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDBC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -245,7 +292,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553945451655" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553950297918" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -260,13 +307,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Employees">
+  <component name="RunManager" selected="Application.SqlInjectionExample">
     <configuration name="ConnectionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.sda.hibernate.ConnectionExample" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.jdbc.ConnectionExample" />
       <module name="JDBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.hibernate.*" />
+          <option name="PATTERN" value="pl.sda.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -275,11 +322,11 @@
       </method>
     </configuration>
     <configuration name="DriverRegisterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.sda.hibernate.DriverRegisterExample" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.jdbc.DriverRegisterExample" />
       <module name="JDBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.hibernate.*" />
+          <option name="PATTERN" value="pl.sda.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,11 +335,11 @@
       </method>
     </configuration>
     <configuration name="Employees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.sda.hibernate.Employees" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.jdbc.Employees" />
       <module name="JDBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.hibernate.*" />
+          <option name="PATTERN" value="pl.sda.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -300,22 +347,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="pl.sda.hibernate.Main" />
+    <configuration name="SqlInjectionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.sda.jdbc.SqlInjectionExample" />
       <module name="JDBC" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.sda.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="StatementExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.sda.hibernate.StatementExample" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.jdbc.StatementExample" />
       <module name="JDBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.hibernate.*" />
+          <option name="PATTERN" value="pl.sda.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -324,16 +374,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.DriverRegisterExample" />
       <item itemvalue="Application.ConnectionExample" />
       <item itemvalue="Application.StatementExample" />
       <item itemvalue="Application.Employees" />
+      <item itemvalue="Application.SqlInjectionExample" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Employees" />
+        <item itemvalue="Application.SqlInjectionExample" />
         <item itemvalue="Application.StatementExample" />
+        <item itemvalue="Application.Employees" />
         <item itemvalue="Application.ConnectionExample" />
         <item itemvalue="Application.DriverRegisterExample" />
       </list>
@@ -354,22 +405,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="26" y="23" width="1654" height="947" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30831265" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30831265" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50062037" side_tool="true" weight="0.32982457" />
       <window_info anchor="bottom" id="Messages" weight="0.32982457" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32982457" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49937966" visible="true" weight="0.32982457" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -395,24 +445,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/hibernate/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/hibernate/DriverRegisterExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/DriverRegisterExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -423,27 +466,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/hibernate/ConnectionExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="124" selection-start-line="8" selection-start-column="8" selection-end-line="9" selection-end-column="124" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/hibernate/StatementExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="103" column="5" lean-forward="true" selection-start-line="92" selection-start-column="4" selection-end-line="103" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/hibernate/Employees.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Employees.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
@@ -465,6 +488,54 @@
             <element signature="e#2118#2129#0" expanded="true" />
             <element signature="e#2940#2951#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Books.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.hml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/ConnectionExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="124" selection-start-line="8" selection-start-column="8" selection-end-line="9" selection-end-column="124" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/StatementExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="26" column="59" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/SqlInjectionExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
         </state>
       </provider>
     </entry>

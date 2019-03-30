@@ -1,4 +1,4 @@
-package pl.sda.hibernate;
+package pl.sda.jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

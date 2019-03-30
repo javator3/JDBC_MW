@@ -1,13 +1,12 @@
-package pl.sda.hibernate;
+package pl.sda.jdbc;
 
 import java.sql.*;
 import java.util.Random;
-import java.util.Scanner;
 
 public class StatementExample {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.cj.jdbc.Driver");
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/ksiegarnia", "root", "Celinka88!");
+        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/ksiegarnia?logger=com.mysql.cj.log.Slf4JLogger&profileSQL=true", "root", "Celinka88!");
 
 
         //createTable(connection);
@@ -17,9 +16,9 @@ public class StatementExample {
         //addEmployeesWithPreparedStatement(connection);
         //removeEmployeeWhenSalaryIsLessThanGivenByUser(connection, 2000);
         //removeEmployeePreparedStatement(connection, 1000);
-        //showEmployees(connection);
-        //showEmployeesByNameAsc(connection);
-        //showEmployeesWhereSalary2000(connection);
+        showEmployees(connection);
+        showEmployeesByNameAsc(connection);
+        showEmployeesWhereSalary2000(connection);
         showEmployeesWhereNameBeginsWithA(connection);
 
     }
