@@ -6,7 +6,7 @@ import java.util.Random;
 public class StatementExample {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.cj.jdbc.Driver");
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/ksiegarnia?logger=com.mysql.cj.log.Slf4JLogger&profileSQL=true", "root", "Celinka88!");
+        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/ksiegarnia?logger=com.mysql.cj.log.Slf4JLogger&profileSQL=true", "root", "");
 
 
         //createTable(connection);

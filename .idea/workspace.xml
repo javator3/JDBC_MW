@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69ece2c7-6534-499c-a94c-33a2dc85d321" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Books.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/SqlInjectionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.hml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDBC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/ConnectionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/ConnectionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/DriverRegisterExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/DriverRegisterExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/Employees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Employees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/StatementExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/StatementExample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,6 +16,7 @@
     <session id="1665049582">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -96,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/StatementExample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
-              <caret line="26" column="59" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="59" />
+              <caret line="26" column="59" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,7 +95,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/SqlInjectionExample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -167,11 +158,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="167">
+              <caret line="11" column="15" lean-forward="true" selection-end-line="48" />
             </state>
           </provider>
         </entry>
@@ -292,7 +283,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553950297918" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553952686611" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -405,6 +396,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="26" y="23" width="1654" height="947" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -419,7 +411,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32982457" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49937966" visible="true" weight="0.32982457" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49937966" weight="0.32982457" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -438,13 +430,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -525,7 +510,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/StatementExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
-          <caret line="26" column="59" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="59" />
+          <caret line="26" column="59" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -536,6 +521,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="11" column="15" lean-forward="true" selection-end-line="48" />
         </state>
       </provider>
     </entry>

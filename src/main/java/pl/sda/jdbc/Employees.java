@@ -11,7 +11,7 @@ public class Employees {
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.cj.jdbc.Driver");
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/ksiegarnia", "root", "Celinka88!");
+        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/ksiegarnia", "root", "");
         showEmployees(connection);
         showEmployeesByNameAsc(connection);
         showEmployeesWhereSalary2000(connection);
